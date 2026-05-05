@@ -37,3 +37,9 @@ alert("Ahora convertiremos grados Celsius a Fahrenheit");
 let celsius = parseFloat(prompt("Ingrese la temperatura en °C: "));
 let fahrenheit = (celsius * 9/5) + 32;
 alert("La temperatura en Fahrenheit es: " + fahrenheit);
+
+/* Ejercicio 6. Calcular perímetro de un cuadrado */
+alert("Ahora calcularemos el perímetro de un cuadrado");
+let lado = parseFloat(prompt("Ingrese la longitud del lado: "));
+let perimetro = lado * 4;
+alert("El perímetro del cuadrado es: " + perimetro);
