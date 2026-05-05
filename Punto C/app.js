@@ -31,3 +31,9 @@ alert ("Ahora convertiremos de dolares a cop");
 let dol = parseFloat(prompt("Ingrese el valor en dolares: "));
 let valor = ( dol * 3564.5);
 alert ("El valor de tus dolares a cop es: "+ valor);
+
+/* Ejercicio 5. Conversión de temperatura */
+alert("Ahora convertiremos grados Celsius a Fahrenheit");
+let celsius = parseFloat(prompt("Ingrese la temperatura en °C: "));
+let fahrenheit = (celsius * 9/5) + 32;
+alert("La temperatura en Fahrenheit es: " + fahrenheit);
