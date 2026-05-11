@@ -43,3 +43,11 @@ alert("Ahora calcularemos el perímetro de un cuadrado");
 let lado = parseFloat(prompt("Ingrese la longitud del lado: "));
 let perimetro = lado * 4;
 alert("El perímetro del cuadrado es: " + perimetro);
+
+/* Ejercicio 7. Calcular el doble y el triple */
+alert("Ahora calcularemos el doble y el triple de un número");
+let numero = parseFloat(prompt("Ingrese un número: "));
+let doble = numero * 2;
+let triple = numero * 3;
+alert("El doble es: " + doble + " y el triple es: " + triple);
+
