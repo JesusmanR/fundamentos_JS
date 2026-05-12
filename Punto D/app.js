@@ -27,3 +27,10 @@ let edad3 = parseInt(prompt("Ingrese la edad 3:"));
 let edad4 = parseInt(prompt("Ingrese la edad 4:"));
 let promedio = (edad1 + edad2 + edad3 + edad4) / 4;
 alert("El promedio de edad es: " + promedio);
+
+/* Ejercicio 4. Consumo de gasolina */
+alert("Calcularemos el consumo de gasolina");
+let kilometros = parseFloat(prompt("Ingrese los kilómetros recorridos:"));
+let consumoPorKm = parseFloat(prompt("Ingrese el consumo por kilómetro (litros/km):"));
+let litrosConsumidos = kilometros * consumoPorKm;
+alert("Los litros consumidos son: " + litrosConsumidos);
