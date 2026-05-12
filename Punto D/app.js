@@ -18,3 +18,12 @@ let horas = parseFloat(prompt("Ingrese las horas trabajadas:"));
 let valorHora = parseFloat(prompt("Ingrese el valor por hora:"));
 let salario = horas * valorHora;
 alert("El salario semanal es: " + salario);
+
+/* Ejercicio 3. Promedio de edad en un grupo (Punto D) */
+alert("Calcularemos el promedio de edad de 4 personas");
+let edad1 = parseInt(prompt("Ingrese la edad 1:"));
+let edad2 = parseInt(prompt("Ingrese la edad 2:"));
+let edad3 = parseInt(prompt("Ingrese la edad 3:"));
+let edad4 = parseInt(prompt("Ingrese la edad 4:"));
+let promedio = (edad1 + edad2 + edad3 + edad4) / 4;
+alert("El promedio de edad es: " + promedio);
