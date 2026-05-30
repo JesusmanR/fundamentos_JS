@@ -34,3 +34,9 @@ let kilometros = parseFloat(prompt("Ingrese los kilómetros recorridos:"));
 let consumoPorKm = parseFloat(prompt("Ingrese el consumo por kilómetro (litros/km):"));
 let litrosConsumidos = kilometros * consumoPorKm;
 alert("Los litros consumidos son: " + litrosConsumidos);
+
+/* Ejercicio 5. Tiempo de viaje */
+let distancia = parseFloat(prompt("Ingrese la distancia del recorrido en km:"));
+let velocidad = parseFloat(prompt("Ingrese la velocidad promedio en km/h:"));
+let tiempo = distancia / velocidad;
+alert("El tiempo estimado de viaje es: " + tiempo.toFixed(2) + " horas");
