@@ -47,3 +47,8 @@ let horas = Math.floor(minutosTotales / 60);
 let minutos = minutosTotales % 60;
 alert(minutosTotales + " minutos equivalen a: " + horas + " horas y " + minutos + " minutos.");
 
+/* Ejercicio 7. Cálculo de descuento simple */
+let precio = parseFloat(prompt("Ingrese el precio del producto:"));
+let descuento = parseFloat(prompt("ingrese el descuento: "));
+let precioFinal = precio - descuento;
+alert("Precio original: $" + precio.toFixed(2) + "\nDescuento (10%): $" + descuento.toFixed(2) + "\nPrecio final: $" + precioFinal.toFixed(2));
