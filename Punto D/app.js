@@ -40,3 +40,10 @@ let distancia = parseFloat(prompt("Ingrese la distancia del recorrido en km:"));
 let velocidad = parseFloat(prompt("Ingrese la velocidad promedio en km/h:"));
 let tiempo = distancia / velocidad;
 alert("El tiempo estimado de viaje es: " + tiempo.toFixed(2) + " horas");
+
+/* Ejercicio 6. Conversión de minutos a horas y minutos */
+let minutosTotales = parseInt(prompt("Ingrese el número de minutos:"));
+let horas = Math.floor(minutosTotales / 60);
+let minutos = minutosTotales % 60;
+alert(minutosTotales + " minutos equivalen a: " + horas + " horas y " + minutos + " minutos.");
+
